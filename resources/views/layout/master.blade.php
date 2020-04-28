@@ -11,9 +11,15 @@
 </head>
 
 <body>
+    @include('shared.spinner')
     @include('shared.navbar')
     @yield('content');
     <script src="{{ asset('js/app.js') }}"></script>
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
 </body>
 
 </html>

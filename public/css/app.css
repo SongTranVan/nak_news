@@ -10882,3 +10882,16 @@ a.text-dark:focus {
   }
 }
 
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #f8fafc;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.mt-150 {
+  margin-top: 150px;
+}
